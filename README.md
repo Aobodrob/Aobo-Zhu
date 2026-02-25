@@ -1,4 +1,4 @@
-# Aobo-Zhu
+# IPR automatic extraction 
 
 # Automatically Classifying and Extracting Ice Layers and Bedrock Interfaces from IPR Data
 
