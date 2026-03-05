@@ -13,19 +13,8 @@ Key features:
 - Morphological post-processing for layer continuity.
 
 ## 2. Repository Structure
-- `models/`: Contains the U-Net and Discriminator architecture definitions.
+- `nets/`: Contains the U-Net architecture definitions.
 - `weights/`: Pre-trained weights for the U-Net and Discriminator (.pth files).
-- `data/`: Sample synthetic and field IPR profiles for testing.
+- `datasets/`: Sample synthetic IPR profiles for testing.
 - `utils/`: Scripts for instantaneous phase computation and morphological filtering.
-- `predict_demo.py`: A minimal runnable script to reproduce extraction results on sample data.
-
-## 3. Operational Reproducibility
-### Prerequisites
-- Python 3.8+
-- PyTorch 2.0+
-- NumPy, Scikit-image, Matplotlib
-
-### Quick Start
-To run the extraction on the provided sample data:
-```bash
-python predict_demo.py --input ./data/sample_profile.png --output ./results/
+- `predict.py`: A minimal runnable script to reproduce extraction results on sample data.
